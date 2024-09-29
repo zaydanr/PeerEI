@@ -1,0 +1,32 @@
+name: therapy_app
+description: A Flutter app for mental health assistance
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.1
+  http: ^0.13.3 
+  webview_flutter: ^2.0.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+fonts:
+  - family: Poppins
+    fonts:
+      - asset: fonts/Poppins-Regular.ttf
+      - asset: fonts/Poppins-Bold.ttf
+        weight: 700x
+      - asset: fonts/Poppins-Italic.ttf
